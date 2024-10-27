@@ -25,6 +25,7 @@ void AboutDlg::DoDataExchange(CDataExchange* pDX)
 {
 	CDialog::DoDataExchange(pDX);
 	DDX_Control(pDX, IDC_ABOUTTEXT, AboutText);
+	DDX_Control(pDX, IDC_MFCLINK, Link);
 }
 
 
@@ -41,6 +42,7 @@ BOOL AboutDlg::OnInitDialog()
 
 	m_Font.CreatePointFont(180, _T("宋体"));
 	AboutText.SetFont(&m_Font);
+	Link.SetFont(&m_Font);
 
 	return TRUE;  // return TRUE unless you set the focus to a control
 	// 异常: OCX 属性页应返回 FALSE

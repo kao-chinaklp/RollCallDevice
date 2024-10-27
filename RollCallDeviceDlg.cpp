@@ -23,7 +23,7 @@ CRollCallDeviceDlg::CRollCallDeviceDlg(CWnd* pParent /*=nullptr*/)
 	: CDialogEx(IDD_ROLLCALLDEVICE_DIALOG, pParent)
 	, Context(_T(""))
 {
-	m_hIcon = AfxGetApp()->LoadIcon(IDR_MAINFRAME);
+	m_hIcon = AfxGetApp()->LoadIcon(IDI_COVER);
 }
 
 void CRollCallDeviceDlg::DoDataExchange(CDataExchange* pDX)

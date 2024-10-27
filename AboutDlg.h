@@ -26,4 +26,6 @@ public:
 	CFont m_Font;
 	// 关于
 	CStatic AboutText;
+	// 链接
+	CMFCLinkCtrl Link;
 };
